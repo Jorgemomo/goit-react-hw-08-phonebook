@@ -9,10 +9,6 @@ export const Link = styled(NavLink)`
   color: var(--primaryTextColor);
   transition: all 0.5s ease;
   margin-right: 12px;
-
-  /* &:not(:last-child) {
-    margin-right: 12px;
-  } */
   text-shadow: 2px 2px 4px blue;
   &.active {
     color: var(--secondaryTextColor);
