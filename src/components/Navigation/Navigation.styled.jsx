@@ -1,6 +1,6 @@
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 export const Link = styled(NavLink)`
   text-decoration: none;
@@ -8,10 +8,11 @@ export const Link = styled(NavLink)`
   font-weight: 800;
   color: var(--primaryTextColor);
   transition: all 0.5s ease;
-  
-  &:not(:last-child){
-   margin-right: 12px;
-  }
+  margin-right: 12px;
+
+  /* &:not(:last-child) {
+    margin-right: 12px;
+  } */
   text-shadow: 2px 2px 4px blue;
   &.active {
     color: var(--secondaryTextColor);
